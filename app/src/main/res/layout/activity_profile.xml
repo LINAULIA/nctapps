@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nct"
+    tools:context=".Profile">
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="304dp"
+        android:layout_height="162dp"
+        android:src="@drawable/logo_apps"
+        android:textColor="@color/font_landing"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.252" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="373dp"
+        android:layout_height="135dp"
+        android:fontFamily="@font/chewy"
+        android:text="SEJEUNI ANNYEONGHASEO!!! \n  Mau tau info lengkap seputar bias kalian di NCT? Download NCT APPS Sekarang!!!"
+        android:textAlignment="center"
+        android:textColor="@color/font_landing"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.552" />
+
+    <TextView
+        style=""
+        android:layout_width="296dp"
+        android:layout_height="69dp"
+        android:fontFamily="@font/alfa_slab_one"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:text="NCT APPS"
+        android:textColor="@color/white"
+        android:textColorLink="#FFFFFF"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.06" />
+
+    <Button
+        android:id="@+id/btnPindahHalaman"
+        style="@style/ButtonStyle"
+        android:layout_width="183dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="432dp"
+        android:layout_marginEnd="24dp"
+        android:background="@color/black"
+        android:fontFamily="@font/roboto_bold"
+        android:text="Check List"
+        android:textColor="@color/design_default_color_on_primary"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.558"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnPindahProfil"
+        style="@style/ButtonStyle"
+        android:layout_width="173dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="516dp"
+        android:layout_marginEnd="24dp"
+        android:background="@color/black"
+        android:fontFamily="@font/roboto_bold"
+        android:text="Check Profile"
+        android:textColor="@color/design_default_color_on_primary"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.532"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
